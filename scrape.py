@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from lxml import etree
 
-article_res=requests.get("https://edition.cnn.com/travel/article/scenic-airport-landings-2020/index.html")
+article_res=requests.get("https://github.com/shreyajadhav157/Project.git")
 articles_soup=BeautifulSoup(article_res.text,'html.parser')
 
 # change beautifulsoup into xml Element object
